@@ -1,2 +1,2 @@
-# exercicios de progrmação
+# exercicios de programação
  
