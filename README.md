@@ -1,2 +1,2 @@
-# exercicios de programação
+# DESAFIOS DE PROGRAMAÇÃO EM LINGUAGEM C/C++
  
