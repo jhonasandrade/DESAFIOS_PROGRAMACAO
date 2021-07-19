@@ -32,6 +32,5 @@ int main(){
        printf("\nvoce esta reprovado!!\n");
     }
 
-
   return 0;
 }
