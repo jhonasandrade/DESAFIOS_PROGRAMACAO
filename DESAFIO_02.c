@@ -1,9 +1,9 @@
-/* A nota final de um estudante È calculada por uma mÈdia ponderada onde o trabalho tem peso 4
-e a prova tem peso 6. O aluno ser· considerado aprovado se obtiver mÈdia superior ou igual a 7.
-Entretanto, a nota do trabalho ou a nota da prova n„o podem ser inferior a 5,0. Construa um
-algoritmo que peÁa a nota da prova, a nota do trabalho e determine se o aluno est· aprovado ou
+/* A nota final de um estudante √© calculada por uma m√©dia ponderada onde o trabalho tem peso 4
+e a prova tem peso 6. O aluno ser√° considerado aprovado se obtiver m√©dia superior ou igual a 7.
+Entretanto, a nota do trabalho ou a nota da prova n√£o podem ser inferior a 5,0. Construa um
+algoritmo que pe√ßa a nota da prova, a nota do trabalho e determine se o aluno est√° aprovado ou
 reprovado.
-calcula a media ponderada e diz se um aluno foi ou ı aprovado.
+calcula a media ponderada e diz se um aluno foi ou n√£o aprovado.
 */
 #include<stdio.h>
 
