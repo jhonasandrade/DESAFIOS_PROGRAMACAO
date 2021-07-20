@@ -1,12 +1,12 @@
 
-/*Escreva um algoritmo que receba o sal·rio atual e calcule o novo sal·rio lÌquido de um funcion·rio
+/*Escreva um algoritmo que receba o sal√°rio atual e calcule o novo sal√°rio l√≠quido de um funcion√°rio
 dadas as tabelas de aumento e de imposto.
 faixa          aumeto     faixa           imposto
 415,0 a 600    25%        <600            0%
 600 a 1,500    20%        600 a 1,500     5%
 acima de 1,500 17,5%      1,500 a 2,700   12%
                           acima de 2,700  17,5%
- O IMPOSTO … SUBTRAIDO DO SALARIO;
+ O IMPOSTO √â SUBTRAIDO DO SALARIO;
  OS VALORES SAO FICTICIOS E NAO CORRESPONDEM A REALIDADE;
  /*
 float autA=(25/100);AUMENTO PERCENTUAL
@@ -28,11 +28,10 @@ int i;
 
 printf("\nDigite o salario do funcionario: \n");
 scanf("%f",&salario);
-salario_liquido0 = (salario+(salario * 0.25 - (0/100)));
-salario_liquido1 = (salario+(salario * 0.12 - (12/100)));
-salario_liquido2 = (salario+(salario * 0.2 - (5/100)));
-salario_liquido3 = (salario+(salario * 0.175 - (17.5/100)));
-
+salario_liquido0 = salario+(salario * 0.25 - 0/100 * salario);
+salario_liquido1 = salario+(salario * 0.20 - 5/100 * salario);
+salario_liquido2 = salario+(salario * 0.175 - 12/100 * salario);
+salario_liquido3 = salario+(salario * 0.175 - 17.5/100 * salario);
 printf("\nEscolha um numero de 0 a 3!\n0 para salarios entre 415 a 600:\n1 para salarios entre 600 a 1500:\n2 para salarios maiores que 1.500 e menores que 2.700:\n3 para salarios acima de 2700:\n");
 scanf("%i",&i);
 
