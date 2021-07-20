@@ -30,8 +30,9 @@ printf("\nDigite o salario do funcionario: \n");
 scanf("%f",&salario);
 salario_liquido0 = salario+(salario * 0.25 - 0/100 * salario);
 salario_liquido1 = salario+(salario * 0.20 - 5/100 * salario);
-salario_liquido2 = salario+(salario * 0.175 - 12/100 * salario);
+salario_liquido2 = salario+(salario * 0.17 - 12/100 * salario);
 salario_liquido3 = salario+(salario * 0.175 - 17.5/100 * salario);
+  
 printf("\nEscolha um numero de 0 a 3!\n0 para salarios entre 415 a 600:\n1 para salarios entre 600 a 1500:\n2 para salarios maiores que 1.500 e menores que 2.700:\n3 para salarios acima de 2700:\n");
 scanf("%i",&i);
 
